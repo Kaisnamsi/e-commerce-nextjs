@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.my-color
+{
+    background: linear-gradient(45deg,#1DE9B6 30%,#76FF03 90%);
+}
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+  }
+
+.cat-btn:hover{
+        background: linear-gradient(45deg,#35e0b6 30%,#132703 90%);
+        color:white !important;
+        transition: all ease 1s !important;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0.25em;
+    border: 1px solid #c9c9c9;
+}
+.feedback-btn{
+    width: 180px;
+    font-size: 20px;
+    border-radius: 200px;
+    position: fixed;
+    top: 50%;
+    left: -140px;
+    z-index: 1000;
+}
+.feedback-btn:hover{
+    top: 50%;
+    left: -20px;
+    transition: all ease 1s;
+}

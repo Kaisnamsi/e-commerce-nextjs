@@ -1,0 +1,28 @@
+.top {
+  /* height: 35px; */
+  line-height: 35px;
+}
+.ic {
+  font-size: 20px;
+  margin-left: 26px;
+  margin-bottom: 5px;
+}
+.menu-bg-color {
+  background: rgb(75, 74, 74, 0.2) !important;
+}
+.menu a {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+}
+.mi {
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+.menu a:hover,
+.search:hover {
+  background: linear-gradient(45deg, #35e0b6 30%, #132703 90%);
+  color: white !important;
+  transition: all ease 1s;
+}
